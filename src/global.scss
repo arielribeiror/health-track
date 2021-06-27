@@ -1,5 +1,9 @@
-/* Theme */
+/* Variables */
 @import "../src/theme/variables.scss";
 
 /* Bootstrap */
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+/* Theme */
+@import "../src/theme/carousel.scss";
+@import "../src/theme/layout.scss";

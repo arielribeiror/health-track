@@ -1,0 +1,29 @@
+.container.d-grid {
+  grid-template-rows: [header] 97px [main] auto [footer] 97px;
+  height: 100vh;
+  grid-row-gap: 0.75rem;
+}
+
+header {
+  grid-row: header;
+}
+
+.toolbar {
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  display: flex;
+}
+
+main {
+  grid-row: main;
+}
+
+footer {
+  grid-row: footer;
+}
+
+header,
+main,
+footer {
+  position: relative;
+}

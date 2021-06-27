@@ -1,0 +1,33 @@
+.carousel-caption {
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.carousel-dark .carousel-caption h5 {
+  color: $dark;
+}
+.carousel-dark .carousel-caption p {
+  color: $gray;
+}
+
+.carousel-indicators {
+  bottom: -1rem;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 6px;
+  border-radius: 2px;
+  border: 0;
+  transition: width 0.25s;
+}
+
+.carousel-indicators .active {
+  width: 15px;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: $secondary;
+}
