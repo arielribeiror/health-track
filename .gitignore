@@ -1,0 +1,24 @@
+*~
+.tmp
+*.tmp
+*.tmp.*
+$RECYCLE.BIN/
+
+# compiled output
+/build
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# dependencies
+/node_modules
+
+# System Files
+.DS_Store
+Thumbs.db
+
+package-lock.json
