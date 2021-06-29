@@ -1,0 +1,19 @@
+.chart {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  div {
+    width: 100%;
+    border-radius: 1rem;
+    margin-inline-end: 0.35rem;
+  }
+  div:last-of-type {
+    margin-inline-end: 0;
+  }
+}
+.chart.light div {
+  background-color: rgba($color: $white, $alpha: 0.15);
+}
+.chart.dark div {
+  background-color: rgba($color: $dark, $alpha: 0.15);
+}

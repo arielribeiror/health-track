@@ -5,3 +5,7 @@ $border-radius-lg: 0.75rem;
 .text-gray {
   color: $gray !important;
 }
+
+.fs-1 {
+  font-size: calc(2.375rem + 1.5vw) !important;
+}

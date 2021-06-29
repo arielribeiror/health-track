@@ -1,15 +1,19 @@
 /* Variables */
-@import "../src/theme/variables.scss";
+@import "../src/theme/bootstrap/variables.scss";
 
 /* Bootstrap */
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-/* Theme */
-@import "../src/theme/alert.scss";
-@import "../src/theme/buttons.scss";
-@import "../src/theme/carousel.scss";
-@import "../src/theme/images.scss";
-@import "../src/theme/layout.scss";
-@import "../src/theme/modal.scss";
-@import "../src/theme/nav.scss";
-@import "../src/theme/utilities.scss";
+/* Bootstrap Theming */
+@import "../src/theme/bootstrap/alert.scss";
+@import "../src/theme/bootstrap/buttons.scss";
+@import "../src/theme/bootstrap/carousel.scss";
+@import "../src/theme/bootstrap/grid.scss";
+@import "../src/theme/bootstrap/images.scss";
+@import "../src/theme/bootstrap/layout.scss";
+@import "../src/theme/bootstrap/modal.scss";
+@import "../src/theme/bootstrap/nav.scss";
+@import "../src/theme/bootstrap/utilities.scss";
+
+/* Health Track Theme */
+@import "../src/theme/chart.scss";
