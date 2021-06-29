@@ -51,7 +51,7 @@
                 <div class="modal-footer">
                   <div class="d-grid w-100">
                     <button
-                      type="button"
+                      type="submit"
                       class="btn btn-secondary btn-lg"
                       data-bs-target="#carouselLoginControls"
                       data-bs-slide="next"
@@ -63,6 +63,15 @@
               </div>
               <div class="carousel-item">
                 <div class="modal-body" style="height: calc(100vh - 160px)">
+                  <button
+                    class="carousel-control-prev text-primary mb-5"
+                    type="button"
+                    data-bs-target="#carouselLoginControls"
+                    data-bs-slide="prev"
+                  >
+                    <i class="icon icon-chevron icon-flip-y me-2"></i>
+                    <span>Voltar</span>
+                  </button>
                   <form action="dashboard/index.html" method="post">
                     <label for="loginPassword" class="form-label">
                       Senha
@@ -77,13 +86,12 @@
                 </div>
                 <div class="modal-footer">
                   <div class="d-grid w-100">
-                    <button
-                      type="button"
+                    <a
+                      href="dashboard/"
                       class="btn btn-secondary btn-lg"
-                      data-bs-dismiss="modal"
                     >
                       Entrar
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>

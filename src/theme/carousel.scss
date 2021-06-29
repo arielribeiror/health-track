@@ -31,3 +31,10 @@
 .carousel-dark .carousel-indicators [data-bs-target] {
   background-color: $primary;
 }
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: unset;
+  opacity: 1;
+  width: auto;
+}
