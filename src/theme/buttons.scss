@@ -1,0 +1,22 @@
+.btn {
+  line-height: 1;
+}
+
+.btn-lg,
+.btn-group-lg > .btn {
+  padding: 0.85rem 1.15rem;
+}
+
+.btn-icon {
+  border-radius: $border-radius-lg;
+}
+
+.btn-icon.btn-sm {
+  width: 32px;
+  height: 32px;
+}
+
+.btn-icon.btn-md {
+  width: 36px;
+  height: 36px;
+}

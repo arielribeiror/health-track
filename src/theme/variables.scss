@@ -1,3 +1,5 @@
+/* Colors */
+
 $blue: #0d6efd;
 $indigo: #6610f2;
 $purple: #6f42c1;
@@ -9,16 +11,22 @@ $green: #198754;
 $teal: #20c997;
 $cyan: #0dcaf0;
 $white: #fff;
-$gray: #6c757d;
+$gray: #8f8f8f;
 $gray-dark: #343a40;
 
 $primary: #3454d1;
 $secondary: #d1345b;
 
 $success: #198754;
-$info: #0dcaf0;
+$info: #34d1bf;
 $warning: #ffc107;
 $danger: #dc3545;
 
 $light: #efefef;
 $dark: #070707;
+
+/* Utilities - Borders */
+
+$border-radius: 0.45rem;
+$border-radius-sm: 0.35rem;
+$border-radius-lg: 0.75rem;
