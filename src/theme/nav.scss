@@ -1,0 +1,28 @@
+.nav-fill .nav-item .nav-link,
+.nav-justified .nav-item .nav-link {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-fill > .nav-link,
+.nav-fill .nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link {
+  color: $gray;
+}
+
+.nav-pills .nav-link {
+  border-radius: $border-radius-lg;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: $dark;
+}
