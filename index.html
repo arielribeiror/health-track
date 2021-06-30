@@ -38,7 +38,7 @@
                     <input
                       type="text"
                       id="loginUser"
-                      class="form-control"
+                      class="form-control form-control-lg"
                       placeholder="Digite seu usuário"
                     />
                   </form>
@@ -67,14 +67,14 @@
                     <i class="icon icon-chevron icon-flip-y me-2"></i>
                     <span>Voltar</span>
                   </button>
-                  <form action="dashboard/index.html" method="post">
+                  <form>
                     <label for="loginPassword" class="form-label">
                       Senha
                     </label>
                     <input
                       type="password"
                       id="loginPassword"
-                      class="form-control"
+                      class="form-control form-control-lg"
                       placeholder="Digite sua senha"
                     />
                   </form>
@@ -114,9 +114,10 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img
-                  src="./src/assets/images/personal-trainer.svg"
+                  src="./src/assets/images/healthy-habit.svg"
                   class="d-block w-100"
-                  alt="..."
+                  style="max-height: 350px"
+                  alt="Exercícios Físicos"
                 />
                 <div class="carousel-caption d-block">
                   <h5>Registre seus exercícios</h5>
@@ -129,28 +130,48 @@
               </div>
               <div class="carousel-item">
                 <img
-                  src="./src/assets/images/personal-trainer.svg"
+                  src="./src/assets/images/eating-healthy-food.svg"
                   class="d-block w-100"
-                  alt="..."
+                  style="max-height: 350px"
+                  alt="Conte calorias"
                 />
                 <div class="carousel-caption d-block">
-                  <h5>Second slide label</h5>
+                  <h5>Conte calorias</h5>
                   <p>
-                    Some representative placeholder content for the second
-                    slide.
+                    Importante para manter o controle de tudo que você ingere e,
+                    dessa forma, saber exatamente o que te prejudica na perda de
+                    peso.
                   </p>
                 </div>
               </div>
               <div class="carousel-item">
                 <img
-                  src="./src/assets/images/personal-trainer.svg"
+                  src="./src/assets/images/mental-health.svg"
                   class="d-block w-100"
-                  alt="..."
+                  style="max-height: 350px"
+                  alt="Pressão Arterial"
                 />
                 <div class="carousel-caption d-block">
-                  <h5>Third slide label</h5>
+                  <h5>Acompanhe sua pressão arterial</h5>
                   <p>
-                    Some representative placeholder content for the third slide.
+                    Registre diariamente e acompanhe se está tudo em ordem. A
+                    pressão arterial é um bom indicativo de qualidade de vida.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./src/assets/images/diet.svg"
+                  class="d-block w-100"
+                  style="max-height: 350px"
+                  alt="Registre seu peso"
+                />
+                <div class="carousel-caption d-block">
+                  <h5>Registre seu peso</h5>
+                  <p>
+                    Acompanhe diariamente seu peso, mas atente-se para variações
+                    dentro de um único dia. Fique tranquilo, temos gráficos para
+                    você analisar a evolução.
                   </p>
                 </div>
               </div>
@@ -175,6 +196,12 @@
                 data-bs-target="#carouselIntroIndicators"
                 data-bs-slide-to="2"
                 aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselIntroIndicators"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
               ></button>
             </div>
           </div>
