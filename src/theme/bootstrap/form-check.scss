@@ -1,0 +1,33 @@
+.form-check-input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: transparent;
+  border: 0;
+  border-radius: $border-radius-lg !important;
+  transition: background-color 0.25s;
+}
+
+.form-check-input:checked[type="radio"] {
+  background-image: none;
+  background-color: rgba($color: $primary, $alpha: 0.1);
+}
+
+.form-check-label {
+  transition: color 0.25s;
+}
+
+.form-check-label i {
+  color: rgba($color: $primary, $alpha: 0.35);
+  transition: color 0.25s;
+}
+
+.form-check-input:checked[type="radio"] ~ .form-check-label,
+.form-check-input:checked[type="radio"] ~ .form-check-label i {
+  color: $primary;
+}
+
+.form-check-input:focus {
+  box-shadow: none;
+}

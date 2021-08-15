@@ -1,0 +1,20 @@
+/* Variables */
+@import "../src/theme/bootstrap/variables.scss";
+
+/* Bootstrap */
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+/* Bootstrap Theming */
+@import "../src/theme/bootstrap/alert.scss";
+@import "../src/theme/bootstrap/buttons.scss";
+@import "../src/theme/bootstrap/carousel.scss";
+@import "../src/theme/bootstrap/form-check.scss";
+@import "../src/theme/bootstrap/grid.scss";
+@import "../src/theme/bootstrap/images.scss";
+@import "../src/theme/bootstrap/layout.scss";
+@import "../src/theme/bootstrap/modal.scss";
+@import "../src/theme/bootstrap/nav.scss";
+@import "../src/theme/bootstrap/utilities.scss";
+
+/* Health Track Theme */
+@import "../src/theme/chart.scss";

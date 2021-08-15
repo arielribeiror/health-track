@@ -1,0 +1,15 @@
+$border-radius: 0.45rem;
+$border-radius-sm: 0.35rem;
+$border-radius-lg: 0.75rem;
+
+.text-gray {
+  color: $gray !important;
+}
+
+.fs-1 {
+  font-size: calc(1.375rem + 3.5vw) !important;
+}
+
+.fs-2 {
+  font-size: calc(1.375rem + 2.25vw) !important;
+}
